@@ -1,0 +1,403 @@
+*{
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: auto;
+    font-family: 'Courgette', cursive;
+
+}
+h2{
+    font-size: auto;
+    font-family: 'Courgette', cursive;
+
+}
+h3{
+    font-size: auto;
+    font-family: 'Courgette', cursive;
+
+}
+
+h4{
+    font-family: 'Courgette', cursive;
+
+}
+.centrar-textos{
+    text-align: center;
+    padding: 1rem;
+}
+img{
+    width: 100%;
+}
+/*****************************************MEDIA QUERIES****************************************/
+@media (max-width: 768px) {
+    .info-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-store2{
+        margin-top: 2rem;
+    }
+    .productos-nosotros{
+        margin-top: 45rem !important;
+    }
+    .header-main{
+        text-align: center;
+        flex-direction: column;
+    }
+    .enlaces-informacion a{
+        flex-direction: column;
+    }
+  }
+  @media (max-width: 576px) {
+    
+    .info-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-store2{
+        margin-top: 1rem;
+    }
+    .header-main{
+        text-align: center;
+        flex-direction: column;
+    }
+    .enlaces-informacion a{
+        flex-direction: column;
+    }
+    .svgs{
+        width: 500px !important;
+    }
+    .img-canvas img {
+        width: 500px !important;
+    }
+    .linea{ 
+        display: none;
+    }
+    .contenedor-productos{
+        grid-template-columns: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    
+    .info-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-store2 h2{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .info-store2{
+        margin-top: 5rem;
+    }
+    .header-main{
+        text-align: center;
+        display: block;
+    }
+    .enlaces-informacion a{
+        display: block;
+    }
+    .caja-main{
+        height: 10rem !important;
+    }
+    .svgs{
+        width: 400px !important;
+        height: 250px !important;
+    }
+    .svgs2{
+        margin-left: 1rem !important;
+    }
+    .img-canvas img {
+        width: 300px !important;
+        height: 200px !important;
+    }
+    .linea{ 
+        display: none;
+    }
+    .contenedor-productos{
+        text-align: center;
+        grid-template-columns: none !important;
+    }
+    .productos-nosotros{
+        margin-top: 50rem !important;
+    }
+    .productos-cartas{
+        grid-template-columns: none !important;
+    }
+    .llamar-carrito{
+        position: fixed;
+        background-color: rgba(255, 192, 203, 0.712);
+        border-radius: 50%;
+        padding: .5rem;
+        right: 0rem;
+        top: 30rem;
+        width: 20% !important;
+    }
+    .footer{
+        padding: 0 3rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    
+    .info-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-store2{
+        margin-right:4rem !important;
+    }
+    .header-main{
+        text-align: center;
+        display: block;
+    }
+    .enlaces-informacion a{
+        display: block;
+    }
+    .svgs{
+        width: 300px !important;
+        height: 200px !important;
+    }
+    .img-canvas img {
+        width: 300px !important;
+        height: 200px !important;
+    }
+    .linea{ 
+        display: none;
+    }
+    .contenedor-productos{
+        text-align: center;
+        grid-template-columns: none !important;
+    }
+    .footer{
+        padding: 0 3rem;
+    }
+  }
+/***************************************PAGINA*********************************************/
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.imagen-logo{
+    width: 90px;
+}
+.enlaces-informacion{
+    margin-top: 2.5rem;
+}
+.enlaces-informacion a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.enlaces-informacion :hover{
+    color: #f8d8ea;
+    transition: 0.5s;
+}
+
+.caja-main{
+    margin-top: 3rem;
+    background-color: #f8d8ea;
+    height: 45vh;
+}
+.info-store{
+    display:flex ;
+    padding: 1rem;
+}
+.info-store2 h2{
+    padding: 1rem;
+    margin-left: 7rem;
+}
+.svgs{
+    width: 600px;
+}
+.svgs2{
+    width: 350px;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+
+
+/*********************************SECTION 1**********************************************/
+.productos-nosotros{
+    background-color: #f8d8ea;
+    margin-top: 20rem;
+    padding-bottom: 2rem;
+}
+.contenedor-productos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 2rem;
+}
+.linea{
+    width: 40%;
+    height: 2px;
+    margin-left: 25rem;
+    background-color: white;
+
+}
+.caja-producto{
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.479);
+    margin: 1rem;
+    padding: 1rem;
+}
+.caja-producto h3{
+    margin: 1rem;
+}
+.contenedor-productos p{
+    text-align: start;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+/*****************************************MAPA*****************************************************/
+.img-canvas{
+    margin-top: 1rem;
+    text-align: center;
+}
+.img-canvas img{
+    width: 80%;
+    height: 600px
+}
+/****************************************SECTION2 ********************************/
+.carousel{
+    margin: 4rem 0;
+}
+.carousel-lista{
+    padding: .5rem;
+    box-shadow: 0 0 3px 0 rgb(247 186 233 / 50%);
+    border: 3px solid;
+    border-image: linear-gradient(to left, #efa8b0, #8cc9f0, #a89cc8) 5;
+}
+.carousel-contenedor{
+    padding: 3rem;
+    position: relative;
+}
+.carousel-elementos{
+    margin: .5rem;
+}
+.carousel-anterior, .carousel-siguiente{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+}
+.carousel-anterior{
+    left: 10px;
+}
+.carousel-siguiente{
+    right: 20px;
+}
+/*********************************************FOOTER**************************************************/
+.footer{
+    background-color: #f8d8ea;
+    box-shadow: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-footer img{
+    text-align: end;
+    margin-top: 4rem;
+    padding-right: 1rem;
+    height: 100px;
+}
+.caja-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+}
+.redes{
+    display: flex;
+}
+.redes p{
+    margin-top: .7rem;
+    margin-left: 1rem;
+}
+.caja-footer h3{
+    margin: .5rem 0;
+}
+.logos{
+    width: 40px;
+}
+
+/******************************************TIENDA***************************************/
+.productos-cartas{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.cartas{
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.329);
+}
+.cartas h5, p{
+    margin: 1rem 0;
+}
+
+.boton-compras{
+    background-color: #8cc9f0;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    padding: .5rem;
+    width: 100%;
+    cursor: pointer;
+}
+.llamar-carrito{
+    position: fixed;
+    background-color: rgba(255, 192, 203, 0.712);
+    border-radius: 50%;
+    padding: .5rem;
+    right: 0rem;
+    top: 30rem;
+    width: 7%;
+}
+.indicador{
+    background-color: rgba(255, 192, 203, 0.712);
+    border-radius: 40%;
+    text-align: center;
+    right: .5rem;
+    top: 27.6rem;
+    padding: .3rem;
+    position: fixed;
+    font-weight: bold;
+    width: 30px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+/******************************************TABLA DE PRODUCTOS**************************************************/
+.mostrar{
+    display: none;
+}
+.linkpedidos{
+    background-color:rgb(0, 255, 34);
+    color: white;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    text-decoration: none;
+}

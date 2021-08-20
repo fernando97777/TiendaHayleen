@@ -1,0 +1,215 @@
+[
+    {
+        "id": 1,
+        "precio": 1.25,
+        "nombre": "Sticket de Uñas",
+        "Url": "./img/Productos/img1.jpeg"
+    },
+    {
+        "id": 2,
+        "precio": 1.80,
+        "nombre": "Delineador Sirena",
+        "Url": "./img/Productos/img2.jpeg"
+    },
+    {
+        "id": 3,
+        "precio": 1.25,
+        "nombre": "Labiales New Nude C/U",
+        "Url": "./img/Productos/img3.jpeg"
+    },
+    {
+        "id": 4,
+        "precio": 0.50,
+        "nombre": "Hilos Decorativos para Uñas",
+        "Url": "./img/Productos/img4.jpeg"
+    },
+    {
+        "id": 5,
+        "precio": 5.00,
+        "nombre": "Juego de Brochas 12PZ",
+        "Url": "./img/Productos/img5.jpeg"
+    },
+    {
+        "id": 6,
+        "precio": 2,
+        "nombre": "Rubor SevenCool",
+        "Url": "./img/Productos/img6.jpeg"
+    },
+    {
+        "id": 7,
+        "precio": 3.00,
+        "nombre": "Removedor de Maquillaje",
+        "Url": "./img/Productos/img7.jpeg"
+    },
+    {
+        "id": 8,
+        "precio": 2.00,
+        "nombre": "sombra en gel para cejas",
+        "Url": "./img/Productos/img8.jpeg"
+    },
+    {
+        "id": 9,
+        "precio": 0.75,
+        "nombre": "Pinza para colocar Pestañas",
+        "Url": "./img/Productos/img9.jpeg"
+    },
+    {
+        "id": 10,
+        "precio": 1.25,
+        "nombre": "Perfilador de Cejas",
+        "Url": "./img/Productos/img10.jpeg"
+    },
+    {
+        "id": 11,
+        "precio": 3.50,
+        "nombre": "Serun Liru Profesional",
+        "Url": "./img/Productos/img11.jpeg"
+    },
+    {
+        "id": 12,
+        "precio": 2.00,
+        "nombre": "Iluminador en Barra",
+        "Url": "./img/Productos/img12.jpeg"
+    },
+    {
+        "id": 13,
+        "precio": 3.00,
+        "nombre": "Cepillo Facial",
+        "Url": "./img/Productos/img13.jpeg"
+    },
+    {
+        "id": 14,
+        "precio": 1.00,
+        "nombre": "Cat Line",
+        "Url": "./img/Productos/img14.jpeg"
+    },
+    {
+        "id": 15,
+        "precio": 1.90,
+        "nombre": "Sombra de cejas Mels",
+        "Url": "./img/Productos/img15.jpeg"
+    },
+    {
+        "id": 16,
+        "precio": 2.25,
+        "nombre": "Rimel Ushas",
+        "Url": "./img/Productos/img16.jpeg"
+    },
+    {
+        "id": 17,
+        "precio": 3.50,
+        "nombre": "Baba de Caracol",
+        "Url": "./img/Productos/img17.jpeg"
+    },
+    {
+        "id": 18,
+        "precio": 2.00,
+        "nombre": "Polvo Compacto Usha",
+        "Url": "./img/Productos/img18.jpeg"
+    },
+    {
+        "id": 19,
+        "precio": 6.50,
+        "nombre": "Paleta Foo Faced",
+        "Url": "./img/Productos/img19.jpeg"
+    },
+    {
+        "id": 20,
+        "precio": 2.25,
+        "nombre": "Esmalte Uv Gel",
+        "Url": "./img/Productos/img20.jpeg"
+    },
+    {
+        "id": 21,
+        "precio": 0.75,
+        "nombre": "Separador de uñas",
+        "Url": "./img/Productos/img21.jpeg"
+    },
+    {
+        "id": 22,
+        "precio": 2.00,
+        "nombre": "Sellador de maquillaje",
+        "Url": "./img/Productos/img22.jpeg"
+    },
+    {
+        "id": 23,
+        "precio": 2.00,
+        "nombre": "Lava Brocha 2 En 1",
+        "Url": "./img/Productos/img23.jpeg"
+    },
+    {
+        "id": 24,
+        "precio": 3.00,
+        "nombre": "Pinzas Multifuncionales 3 el Par",
+        "Url": "./img/Productos/img24.jpeg"
+    },
+    {
+        "id": 25,
+        "precio": 1.25,
+        "nombre": "Goma de pestañas",
+        "Url": "./img/Productos/img25.jpeg"
+    },
+    {
+        "id": 26,
+        "precio": 1.60,
+        "nombre": "Kit de Uñas",
+        "Url": "./img/Productos/img26.jpeg"
+    },
+    {
+        "id": 27,
+        "precio": 1.75,
+        "nombre": "Toallas Desmaquilladoras",
+        "Url": "./img/Productos/img27.jpeg"
+    },
+    {
+        "id": 28,
+        "precio": 0.80,
+        "nombre": "Colageno de Labios",
+        "Url": "./img/Productos/img28.jpeg"
+    }
+    ,
+    {
+        "id": 29,
+        "precio": 4.00,
+        "nombre": "Bandeja Colador",
+        "Url": "./img/Productos/img29.jpeg"
+    },
+    {
+        "id": 30,
+        "precio": 3.00,
+        "nombre": "Perfume Dama 35Ml",
+        "Url": "./img/Productos/img30.jpeg"
+    },
+    {
+        "id": 31,
+        "precio": 2.10,
+        "nombre": "Sombra S.F.R",
+        "Url": "./img/Productos/img31.jpeg"
+    },
+    {
+        "id": 32,
+        "precio": 3.00,
+        "nombre": "Sombra Rose",
+        "Url": "./img/Productos/img32.jpeg"
+    },
+    {
+        "id": 33,
+        "precio": 9.50,
+        "nombre": "Secadora",
+        "Url": "./img/Productos/img33.jpeg"
+    },
+    {
+        "id": 34,
+        "precio": 1.00,
+        "nombre": "Limado de Uñas",
+        "Url": "./img/Productos/img34.jpeg"
+    },
+    {
+        "id": 35,
+        "precio": 1.60,
+        "nombre": "Delineador Neon",
+        "Url": "./img/Productos/img35.jpeg"
+    }
+
+    
+]
